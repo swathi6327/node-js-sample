@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/node-js-sample.git'
+                git 'https://github.com/yeshcrik/node-js-sample.git'
             }
         }
 
