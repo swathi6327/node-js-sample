@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        APP_DIR = '/home/ubuntu'
+        APP_DIR = '/opt/node-app'
     }
 
     stages {
